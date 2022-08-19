@@ -1,0 +1,31 @@
+POST http://localhost:8080/api/todo
+Content-Type: application/json
+
+{
+  "todo": "This is first item on my todo"
+}
+
+
+
+### GET
+
+GET http://localhost:8080/api/todos
+Content-Type: application/json
+
+
+
+### PUT
+
+PUT http://localhost:8080/api/todo/62ff4ed67df87fdce8173070
+Content-Type: application/json
+
+{
+  "todo":"I love my job"
+}
+
+
+
+### Delete
+
+DELETE http://localhost:8080/api/todo/62ff4ed67df87fdce8173070
+Content-Type: application/json
